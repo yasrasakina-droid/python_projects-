@@ -1,0 +1,7 @@
+#f=open("tut20.txt","w")
+#a=f.write("Hello  im yasra sakina \n ")
+#print(a)
+#f.close()
+f=open("tut20.txt","r+")
+print(f.readline())
+f.write("yes thankyou ali ")
